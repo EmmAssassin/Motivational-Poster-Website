@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(10, 10, 10);
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgba(255, 255, 0, 0.877);
+    font-size: 3vw;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+p {
+    color: rgb(245, 245, 245);
+    font-size: 2vw;
+    margin: 0;
+}
+
+img {
+    border: 5px solid yellow;
+    width: 50vw;
+}
+
+/* Phone sizing */
+/* @media screen and (max-width: 768px) {
+
+} */
+
+/*Tablet sizing*/
+/* @media screen and (min-width: 768px) and (max-width: 1025px) {
+
+} */
+
+/*Laptop sizing*/
+/* @media screen and (min-width: 1025px) and (max-width: 1401px) {
+
+} */
+
+/*Desktop sizing*/
+/* @media screen and (min-width: 1401px) {
+
+} */
